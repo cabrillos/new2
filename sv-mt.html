@@ -23,7 +23,7 @@ var getKEY  = getParameterByName('key');
 var getKEY2  = getParameterByName('key2');
 
          function getSjson(name){
-         	$.getJSON("/status.json?rd=" + randomValue, function(response) {
+         	$.getJSON("new2/status.json?rd=" + randomValue, function(response) {
       sTLS(response[name]);
          	});
          	
